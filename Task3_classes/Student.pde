@@ -1,4 +1,7 @@
 
+//Alt efter class x er klassevariabler
+//Alle variabler i en klasse er en instansvariable
+
  class Student {
   String name;
   int age;

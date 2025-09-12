@@ -8,6 +8,8 @@ void setup() {
   //println(peter.name + " " + peter.age + " " + peter.isFemale);
   println(christopher.name + " " + christopher.age + " " + christopher.isFemale + " " + christopher.datamatikerTeam);
   println(gabriel.name + " " + gabriel.age + " " + gabriel.isFemale + " " +  gabriel.datamatikerTeam);
+  
+  
   if (isClassmate(christopher, gabriel) == true){
     println(christopher.name + " and " + gabriel.name + " are classmates");
   } else { println(christopher.name + " and " + gabriel.name + " are not classmates");

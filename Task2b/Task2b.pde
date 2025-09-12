@@ -1,12 +1,12 @@
 
 void setup(){
-int resultat = sum(2, 4);
-println(resultat);
+println(sum(2, 4));
   
 
 }
 
 
 int sum(int a, int b){
-  return a + b;
+  int resultat = a + b;
+  return resultat;
 }
