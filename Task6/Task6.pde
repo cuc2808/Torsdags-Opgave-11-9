@@ -1,13 +1,13 @@
 
 
 void setup(){
-divisible(1);
+divisible(5);
   
 }
 
-void divisible(int i){
-  for (i = 1; i <= 100; i++){
-    if (i % 2 == 0){
+void divisible(int parm){
+  for (int i = 1; i <= 100; i++){
+    if (i % parm == 0){
   println(i);
     }
   }
